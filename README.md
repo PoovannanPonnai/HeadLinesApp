@@ -32,7 +32,7 @@ Head Lines application built on React js and node js
 
 6.run npm start
 
-##Steps[To view Application in Browser]
+## Steps[To view Application in Browser]
 
 1.Open Chrome Browser
 
