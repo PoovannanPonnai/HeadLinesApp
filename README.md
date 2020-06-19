@@ -6,9 +6,9 @@ Head Lines application built on React js and node js
 
 1.Open the terminal 
 
-2.Change the directory to current/server folder
+2.Change the directory to server folder
 
-3.Please find the .env.example file and make a copy as .env , please change the env variable as per the need
+3.Please find the .env.example file and make a copy as .env and please change the env variable as per the need
 
 4.please make sure the CLIENT_URL in .env file is configured corretly
 
@@ -20,9 +20,9 @@ Head Lines application built on React js and node js
 
 1.Open the terminal 
 
-2.Change the directory to current/client folder
+2.Change the directory to client folder
 
-3.Please find the .env.example file and make a copy as .env , please change the env variable as per the need
+3.Please find the .env.example file and make a copy as .env and please change the env variable as per the need
 
 4.Please check the REACT_APP_SERVER_URL in the .env,  
 
@@ -36,4 +36,6 @@ Head Lines application built on React js and node js
 
 1.Open Chrome Browser
 
-2.Enter the url as http://loclhost:3000
+2.Enter the url as http://loclhost:3000 
+
+3.Please change the port number in the url as per the react application port number
