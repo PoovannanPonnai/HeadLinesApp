@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  background: #f3f3f3;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+p {
+  margin: .5rem 0;
+}
+
+img {
+  width: 100%;
+}
+
+h1, h2, h3 {
+  font-family: 'Staatliches', cursive;
+  margin-bottom: .55rem;
+  line-height: 1.3;
+}
+
+/* Utility */
+.container { 
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.logo{
+  font-size: 2rem;
+  color: darkgoldenrod;
+}
+
+input{
+  line-height: 25px;
+  width: 100%;
+  border: 1px solid darkgoldenrod;;
+  border-radius: 20px;
+  padding: 1%;
+  text-align: center;
+  outline: 0;
+}
+
+.searchBox{
+  width: 30%;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  background: orange;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  
+  width: 100px;
+}
+
+.round-corner{
+  border-radius: 25px;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+
+.card {
+  background: #fff;
+  padding: 1rem;
+}
+
+
+.py-2 { padding: 2rem 0 }
+
+
+/* Navigation */
+#main-nav {
+  background: #fff;  
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+#main-nav .container {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  align-items: center;
+}
+
+/* Home Articles */
+#home-articles .articles-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+/* Footer */
+#main-footer {
+  margin-top: 10px;  
+  color:
+}
+
+#main-footer a {
+  margin: .5rem 0;
+  color: orange;
+}
+
+#main-footer .footer-container {
+  display: flex;
+  justify-content: space-around;
+}
