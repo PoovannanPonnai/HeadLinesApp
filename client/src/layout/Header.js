@@ -25,7 +25,7 @@ const Header = () => {
   return (
     <nav id="main-nav">
       <div className="container">
-        <div className="logo">UK Head Lines</div>
+        <div className="logo">Today's News Headlines</div>
         <div className="searchBox">
           <input
             type="text"
